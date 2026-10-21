@@ -80,7 +80,7 @@ img { max-width: 100%; display: block; }
 .logo span { color: var(--sage-dark); }
 
 .logo img {
-  height: 46px;
+  height: 60px;
   width: auto;
 }
 
@@ -420,6 +420,8 @@ section { padding: 4.5rem 0; }
 }
 
 @media (max-width: 720px) {
+  .logo img { height: 50px; }
+
   .menu-toggle { display: block; }
 
   .nav-links {
