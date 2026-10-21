@@ -1,0 +1,9 @@
+{
+  "redirects": [
+    { "source": "/Doctor_Fei_Yi.html", "destination": "/about.html", "permanent": true },
+    { "source": "/Dr_James_Yi.html", "destination": "/about.html", "permanent": true },
+    { "source": "/Office.html", "destination": "/contact.html", "permanent": true },
+    { "source": "/Treatable.html", "destination": "/conditions.html", "permanent": true },
+    { "source": "/:path((?!(?:index|about|services|conditions|contact)\\.html$).*\\.html)", "destination": "/", "permanent": true }
+  ]
+}
