@@ -92,7 +92,9 @@ img { max-width: 100%; display: block; }
 }
 
 .footer-logo {
-  max-width: 300px;
+  width: 240px;
+  max-width: 100%;
+  height: auto;
   background: var(--cream);
   padding: 0.6rem 0.9rem;
   border-radius: 10px;
